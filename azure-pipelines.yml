@@ -12,8 +12,8 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '9c3cf0b5-1561-4c1f-ae16-e2795f639ef6'
-  imageRepository: 'azooinmyluggagedotnetappbuilddemo'
-  containerRegistry: 'builddemo.azurecr.io'
+  imageRepository: 'samples/simple-feed-reader:build'
+  containerRegistry: 'mydemos.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   
